@@ -2,162 +2,167 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Inconsolata', monospace;
 
+}
+
+/* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #ffc107 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
 }
 
 @font-face {
-	font-family: "couture";
-	src: url("../fonts/couture.otf");
+    font-family: "camellia";
+    src: url("../fonts/camellia.ttf");
 }
 
-nav {
-	background-color: #000;
-	text-align: center;
-	position: relative;
-	top: 0;
-	height: 50px;
-	max-width: 100%;
-	
+.name{
+    font-family: "camellia";
+    font-size: 80px;
 }
 
-nav a {
-	color: #f8e7e8;
-	font-size: 14px;
-	line-height: 16px;
-	margin: 15px;
-	border: 0px;
-	padding-top: 10px;
-	display: inline-block;
-	font-family: 'Patrick Hand SC', cursive;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-
+#jara{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-.selected {
-	text-decoration: underline;	
+#title{
+    font-size: 40px;
 }
 
-#home {
-	height: 500px;
-	max-width: 100%;
-	background-color: #f8e7e8;
+.nav-link{
+    margin-left:30px;
+    margin-right: 30px;
+    font-size: 23px;
 }
 
-#jm {
-	text-align: center;
-	margin: 0px 0 10px;
-	top: 49.5%;
-	padding-top: 50px;
-} 
 
-#home {
-	height: 500px;
-	width: 100%;
-	background-color: #f8e7e8;
+@font-face {
+    font-family: "couture";
+    src: url("../fonts/couture.otf");
+}
+#name{
+    font-size: 25px;
+    font-family: "couture";
 }
 
-#content1 {
-	height: 500px;
-	width: 100%;
-	background: url(../../assets/images/bg.jpg);
-	background-size: cover;
-	font-family: 'Patrick Hand SC', cursive;
+#hireme{
+    font-family: "couture";
+    font-style: 35px;
 }
 
-#content2 {
-	height: 500px;
-	width: 100%;
-	background-color: #f8e7e8;
+/*projects*/
+
+#projectbg{
+    background-color: #ffe39f;
+    height: 80vh;
 }
 
-#core {
-	padding-top: 10px;
-	padding-left: 20px;
+#projectbg2{
+    background-color: #05ffa1;
+    height: 80vh;
 }
 
-.col-md-12 {
-	padding-top: 10px;
-	padding-bottom: 5px;
+#projectbg3{
+    background-color: #fffb96;
+    height: 80vh;
 }
+
+#projectbg4{
+    background-color: #b967ff;
+    height: 80vh;
+}
+
+/*progress bars*/
 
 .progress {
-	background-color: #cc8585;
-	border-radius: 11px;
-	height: 33px;
+    background-color: #e79191;
+    border-radius: 11px;
+    height: 33px;
 }
 
 .progress-bar-custom {
-	background-color: #C7D8C6;
-	width: 90%;
+    background-color: #30c6fa;
+    width: 90%;
 }
 
 .progress-bar-custom2 {
-	background-color: #E7D479;
-	width: 80%;
+    background-color: #E7D479;
+    width: 80%;
 }
 
 .progress-bar-custom3 {
-	background-color: #E7D4f9;
-	width: 70%;
+    background-color: #c69397;
+    width: 80%;
 }
 
 .progress-bar-custom4 {
-	background-color: #ffecca;
-	width: 10%;
+    background-color: #a6c143;
+    width: 70%;
 }
 
 .progress-bar-custom5 {
-	background-color: #c9dcff;
-	width: 10%;
+    background-color: #c9dcff;
+    width: 70%;
 }
 
 .progress-bar-custom6 {
-	background-color: #655929;
-	width: 10%;
+    background-color: #655929;
+    width: 70%;
 }
 
-
-
-
-
-
-
-
-
-/*Footer*/
-
-footer {
-	background-color: #000;
-	color: #f8e7e8;
-	bottom: 0;
-	margin-bottom: 0;
-	font-size: 15px;
-	margin-top: 0;
-	
-
+#content2 {
+    height: 700px;
+    width: 100vw;
+    background-color: #f8e7e8;
 }
 
-.container {
-	padding-top: 10px;
+#core{
+    font-family: "camellia";
+    font-size: 40px;
 }
 
-
-a {
-	color: #f8e7e8;
+#tab{
+    height: 150px;
+    background-color: #d3d3d3;
 }
 
-a:hover {
-	color: red;
-}
-
-p#foot-email {
-	margin-bottom: 0;
-}
-
-.col-md-4 {
-	font-family: 'Patrick Hand SC', cursive;
+.name2{
+    font-family: "camellia";
+    font-size: 60px;
 }
 
 
@@ -171,27 +176,18 @@ p#foot-email {
 
 
 
-
-
-
-
-
-
-
-
-
-/*Media Queries */
-@media (max-width: 575.98px) { 
-	.fab {
-		font-size: 3em;
-	}
- }
-
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { ... }
-
-/*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { ... }
-
-/*Large devices (desktops, less than 1200px*/)
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 767px) {
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .column-2{
+        width: 100v%    }
+}
