@@ -48,7 +48,7 @@ h5 {
 }
 
 .name{
-    font-family: "camellia";
+   font-family: 'Caveat Brush', cursive;
     font-size: 80px;
 }
 
@@ -156,16 +156,22 @@ h5 {
 }
 
 #tab{
-    height: 150px;
+    height: 90px;
     background-color: #d3d3d3;
 }
 
 .name2{
-    font-family: "camellia";
-    font-size: 60px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
 }
 
+/*.img-fluid{
+    height: 250px;
+    width: 250px;
 
+}
+
+*/
 
 
 
